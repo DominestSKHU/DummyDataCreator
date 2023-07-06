@@ -44,4 +44,4 @@ with open('output.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(["기숙사", "상태", "차수", "성별", "이름", "학번", "신청방", "신청기간", "확정방", "HP", "보증금", "기숙사비", "기숙사비(2)", "공공요금", "청구액합계", "입금액", "환블금액", "은행", "가상계좌", "LINKKEY", "대학학과"])
     for i in range(300):
-        writer.writerow([ "B","A",random_genders[i],random_names[i],"02",random_application_periods[i],random_linkkeys[i], random_departments[i]])
+        writer.writerow([ "B","A",random_application_periods[i],random_genders[i],random_names[i],random_student_numbers[i],"02",random_application_periods[i],"",random_phone_numbers[i],"50,000","1,021,410","","",random_application_periods[i],"0","0","대전은행",random_account_numbers[i],random_linkkeys[i], random_departments[i]])
