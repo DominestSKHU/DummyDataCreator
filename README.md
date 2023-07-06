@@ -2,8 +2,8 @@
 
 <p>이 스크립트는 Python을 사용하여 무작위 학생 정보를 생성하고 CSV 파일에 저장하는 기능을 제공합니다. 학생들의 성별, 이름, 학번, 차수, 현재 상태 등의 정보를 무작위로 생성하여 파일로 출력합니다.</p>
 
-<h2>설치</h2>
-
+<h2>사용법</h2>
+<p>Python 3.x 환경이 필요합니다.</p>
 <ol>
   <li>의존성 패키지 설치:</li>
   <code>python-dateutil</code> 의존성 패키지를 설치합니다. 아래 명령어를 실행하세요:
@@ -29,6 +29,35 @@ with open('output.csv', 'w', newline='') as file:
   </code></pre>
   <p>위의 코드를 실행하면 <code>output.csv</code>라는 이름의 CSV 파일이 생성되고, 그 안에 무작위로 생성된 학생 정보가 저장됩니다.</p>
 </ol>
+<br/>
+<h1>데이터 구성</h1>
+   
+  <ul>
+        <li>이름: random_names</li>
+        <li>성별: random_genders</li>
+        <li>학번: random_student_numbers</li>
+        <li>차수: random_rounds</li>
+        <li>현재상태: random_current_statuses</li>
+        <li>생년월일: random_birthdays</li>
+        <li>기숙사: "B"</li>
+        <li>전공: random_departments</li>
+        <li>학년: [random_grade + "학년" for random_grade in random_grades]</li>
+        <li>기간: random_application_periods</li>
+        <li>호실: "02"</li>
+        <li>배정방: random_rooms</li>
+        <li>입사일자: random_entry_dates</li>
+        <li>퇴사일자: ""</li>
+        <li>차수시작일: random_entry_dates</li>
+        <li>차수종료일: random_end_dates</li>
+        <li>HP: random_phone_numbers</li>
+        <li>사회코드: random_social_codes</li>
+        <li>사회명: random_social_names</li>
+        <li>ZIP: random_zip_codes</li>
+        <li>LINKKEY: random_linkkeys</li>
+        <li>주소: random_addresses</li>
+    </ul>
+  
+</br>
 
 <h2>라이선스</h2>
 
